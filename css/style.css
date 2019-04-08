@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+}
+
 main {
     position: relative;
     display: grid;
