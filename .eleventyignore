@@ -1,2 +1,4 @@
 node_modules/
 ./readme.md
+layouts/
+partials/
