@@ -5,6 +5,7 @@
   "main": "index.pug",
   "scripts": {
     "test": "eclint check $(git ls-files); pug-lint *.pug partials/*.pug layouts/*.pug; stylelint **/*.css; eslint .",
+    "imagemin": "for file in img/**/*.png; do imagemin $file --out-dir $(dirname -- $file) > /dev/null; done",
     "build": "rm -rf dist && eleventy",
     "now-build": "rm -rf dist && eleventy",
     "deploy-dev": "now",
@@ -38,6 +39,7 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-unicorn": "^6.0.1",
+    "imagemin-cli": "^4.0.1",
     "pug-lint": "^2.5.0",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0"
