@@ -4,14 +4,5 @@ body {
 }
 
 main {
-    position: relative;
-    display: grid;
     height: 100%;
-}
-
-.coming-soon {
-    text-align: center;
-    margin: auto;
-    font-family: 'Adobe Garamond Pro', Georgia, serif;
-    font-size: 22px;
 }
