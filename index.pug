@@ -1,8 +1,32 @@
 extends /layouts/base.pug
 
 block content
-    .coming-soon
-        a(href="/")
-            img.logo(src="/img/logo.png" height="160" alt="DSMUN '19 logo")
+    section.hero
+        h1 The Doon School Model United Nations
 
-        p Coming soon.
+        p
+            time(datetime="2019-08-16T09:30:0.000-0530") August 16
+            |–
+            time(datetime="2019-08-18T21:30:0.000-0530") August 18
+
+    section.about
+        :markdown-it
+            On behalf of The Doon School Model United Nations Society, we write to invite you to the 13th Doon School Model United Nations Conference scheduled for the 16th, 17th and 18th of August, 2019.
+
+            Since its inception in 2007, DSMUN has grown to become one of India's largest Model United Nations Conferences. While the number of delegates has grown over the years, every effort has been made to ensure that DSMUN remains an exciting, dynamic and engaging conference which challenges the best and brightest minds from schools all over the world.
+
+            With over 350 delegates participating in the Conference last year, each committee challenged and tested individual delegates, not just on their intellectual prowess, but also on their emotional quotient; their ability to lead as well as to follow, to compete as well as to collaborate and to persuade as well as to be convinced. DSMUN presents a very real and serious simulation of the nuances of active diplomacy and we are sure that your school's participation will only add to the quality of debates and discussions.
+
+            Over the course of the three days, delegates also interact with each other in a host of cultural activities, dinners and informal get-togethers in the pristine environs of the historic 72-acre Chandbagh Estate, on which the School stands. The month of August is one of the best times to visit the Doon valley and the lower Shivaliks; the occasional post monsoon showers, the verdant foliage and the cool evening breezes make it one unforgettable experience.
+
+            We look forward to hearing from you and having you amongst us at The Doon School in August!
+
+    section.gallery
+        ul
+            li: img(src="")
+            li: img(src="")
+            li: img(src="")
+            li: img(src="")
+            li: img(src="")
+            li: img(src="")
+            li: img(src="")
