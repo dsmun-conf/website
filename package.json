@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/shreyasminocha/dsmun19#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.1",
+    "@11ty/eleventy": "^0.8.2",
     "eclint": "^2.8.1",
     "eslint": "^5.15.1",
     "eslint-config-airbnb-base": "^13.1.0",
