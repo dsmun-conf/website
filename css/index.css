@@ -1,0 +1,8 @@
+.gallery ul {
+    padding-left: 0;
+}
+
+.gallery ul li {
+    list-style: none;
+    display: inline;
+}

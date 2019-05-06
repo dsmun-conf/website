@@ -1,8 +1,105 @@
+/**
+ * Fonts
+ */
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url('https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lora Bold'), local('Lora-Bold'), url('https://fonts.gstatic.com/s/lora/v13/0QIgMX1D_JOuO7HeNtxumtus-7w.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lora Italic'), local('Lora-Italic'), url('https://fonts.gstatic.com/s/lora/v13/0QIhMX1D_JOuMw_LIftLtfOm8w.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lora Regular'), local('Lora-Regular'), url('https://fonts.gstatic.com/s/lora/v13/0QIvMX1D_JOuMwr7I_FMl_E.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/**
+ * General
+ */
+
 body {
     height: 100vh;
-    margin: 0;
+    margin: 0 auto;
+    width: 70%;
 }
 
 main {
     height: 100%;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+/**
+ * Typography
+ */
+
+/**
+ * Header
+ */
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    margin: 1em;
+}
+
+@media (min-width: 600px) {
+    header nav ul li {
+        display: inline;
+    }
+}
+
+
+/**
+* Footer
+*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 80%;
+    border-top: hsla(0, 0%, 70%) solid 1px;
+    padding: 1em 0;
+}
+
+
+@media (min-width: 700px) {
+    footer {
+        flex-direction: row;
+    }
+}
+
+footer address,
+footer > p,
+footer > nav {
+    flex: 1;
+}
+
+footer nav ul li {
+    list-style: disc;
 }
