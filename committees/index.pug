@@ -1,19 +1,30 @@
+---
+layout: null # Reset layout set in committees.json
+tags: []
+---
+
 extends /layouts/base.pug
+
+append stylesheets
+    link(rel="stylesheet", href="/css/committees.css")
 
 block content
     h1 Committees
 
-    section
+    section.committee-grid
         ul
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
-            li: a(href="#"): img(src="")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+            +committeeThumb("United Nations Security Council", "unsc")
+
+mixin committeeThumb(name, acronym)
+    li(data-committee=name): a(href=`/committees/${acronym}`)=name

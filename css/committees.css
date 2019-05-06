@@ -1,0 +1,22 @@
+.committee-grid ul {
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-auto-columns: 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+.committee-grid ul li {
+    list-style: none;
+    height: 170px;
+    background-image: url('http://lorempixel.com/300/175/sports/3');
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: overlay;
+}
+
+.committee-grid ul li a {
+    text-decoration: none;
+    color: white;
+}
