@@ -10,9 +10,9 @@ The deputy chairpersons, Nishiketh Gupta and Aaryan Bansal, will help me run com
 
 Best of Luck. See you in Chandbagh!
 
-Karthik Subbiah,
-Chairperson,
-United Nations Economic and Social Council.
+Karthik Subbiah  
+Chairperson  
+United Nations Economic and Social Council
 
 ## Agenda
 

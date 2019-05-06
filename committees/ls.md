@@ -16,9 +16,9 @@ As for myself, I am currently a Humanities student in the ISC and my keen intere
 
 Best of luck and see you soon in Chandbagh!
 
-Divyansh Nautiyal,
-Speaker,
-Lok Sabha, 2019.
+Divyansh Nautiyal  
+Speaker  
+Lok Sabha
 
 ## Agenda
 

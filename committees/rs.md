@@ -14,9 +14,10 @@ involved in community service, dramatics and been a member of various clubs and 
 All delegates are welcome to contact us for any help.
 
 Best of luck and hope to see you soon in Chandbagh!
-Karanvir Singh Mann,
-Chairman,
-Rajya Sabha, 2019
+
+Karanvir Singh Mann  
+Chairman  
+Rajya Sabha
 
 ## Agenda
 

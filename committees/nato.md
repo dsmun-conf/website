@@ -8,11 +8,12 @@ The second agenda, set in a completely secluded, quiet corner of the world, is o
 
 Before the start of the committee, I expect you all to have spent time researching beyond just the background guide and familiarizing yourselves with your country’s stance. Any jokes related to Antarctica and ‘ice-breaking’ will be severely penalized. You have been warned. All things aside though I, sincerely hope that you find your voice in this conference and take back something from it.
 
-If you have any doubts please mail me at (chair.nato@doonschool.com ) or get in touch on FB and I will try my best to reply as soon as possible.
+If you have any doubts please mail me at (<chair.nato@doonschool.com>) or get in touch on FB and I will try my best to reply as soon as possible.
 
 Regards,
-Aarsh Ashdhir (As Jens Stoltenberg),
-Secretary-General NATO
+Aarsh Ashdhir (As Jens Stoltenberg)  
+Secretary-General  
+North Atlantic Treaty Organisation
 
 ## Agenda
 

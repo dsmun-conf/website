@@ -13,9 +13,9 @@ As for me, I currently pursue the ISC curriculum in school, with a keen interest
 
 Best of luck and hope to see you soon in Chandbagh!
 
-Dhanvi Shukla,
-Chairperson,
-Viceroy’s Executive Council, 2019
+Dhanvi Shukla  
+Chairperson  
+Viceroy’s Executive Council, 1946
 
 ## Agenda
 

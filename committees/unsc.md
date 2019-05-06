@@ -8,8 +8,10 @@ Keeping in mind the nature of our agendas, this year’s the Security Council ha
 
 Along with deputy chairpersons Adit Chatterjee and Sudhir Chowdhry, I hope to conduct an engaging committee experience from which we all have something to learn. I hope to see you all at Chandbagh in August and hope that you have a memorable MUN experience!
 
-Warm Regards,
-Karan Sampath
+Warm Regards,  
+Karan Sampath  
+Chairperson  
+United Nations' Security Council
 
 ## Agenda
 
