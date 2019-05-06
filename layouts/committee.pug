@@ -1,9 +1,7 @@
 extends /layouts/base.pug
 
-prepend content
+block content
     article
-        h1=name
+        h1=page.fileSlug
 
-        img(src=`/img/chairs/${shortname}`)
-
-        block content
+        | !{content}
