@@ -1,3 +1,8 @@
+---
+name: Lok Sabha
+chairperson: Divyansh Nautiyal
+---
+
 Greetings Members of the Parliament and welcome to the Lok Sabha Session of DSMUN, 2019!
 
 The crown state of India, Kashmir has found itself in heavy debates as to the political machinery and the Constitution of the State and the conditions that prevail in Kashmir due to the same. Ever since the State’s accession to the Indian Union on the 26th October 1947, the state has functioned under Article 35 A (initiated in 1954) and Article 370 which have distinguished the functioning of the State from that of the others in the Indian Union. While Kashmir has been granted an autonomous status and has the power to define its permanent residents among the many other distinctions, the very same have found themselves under the scanner for reasons ranging from violation of the Right to Equality under Article 14 to prevention of privatization in the State which incurs heavy revenue losses for the State.

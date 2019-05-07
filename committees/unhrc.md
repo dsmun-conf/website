@@ -1,3 +1,8 @@
+---
+name: United Nations Human Rights Council
+chairperson: Samarth Mehra
+---
+
 Greetings Delegates!
 
 My name is Samarth Mehra and as the chairperson of the United Nations’ Human Rights Council (UNHRC), I welcome you to the Doon School Model United Nations Conference, 2019 (DSMUN). I study in Grade 12, currently pursuing the ISC curriculum, with a deep interest in Economics and Finance. One of my key passions is Music and I love to play the Piano. In the co-curricular front, I take great pleasure in writing, debating, reading, and, evidently, participating in Model UNs. My first MUN experience was as a chit-boy in 2016, and since then I have participated in many such conferences, both in and out of school, serving both as a delegate and an executive board member.

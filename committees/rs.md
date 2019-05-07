@@ -1,3 +1,8 @@
+---
+name: Rajya Sabha
+chairperson: Karanvir Mann
+---
+
 Greetings Members of Parliament and welcome to the Rajya Sabha Session at
 DSMUN’19!
 

@@ -1,3 +1,8 @@
+---
+name: Lincoln's War Cabinet, 1964
+chairperson: Aryan Bhattacharjee
+---
+
 Fellow Americans,
 
 As the Chairperson of Lincoln’s War Cabinet (i.e. yours truly being Lincoln himself), I extend, to all of you, my warmest welcome to this year’s edition of DSMUN. I am Aryan Bhattacharjee, in class 12, and pursuing the IB Diploma Program. I love drama, debating, music, writing and debating. The common thread, I tell myself, across my interests listed is expressing oneself, and one’s views on our dear world carefully constructed, completely and uninhibitedly—something I look forward to seeing in committee from all of you. For, in my mind, the excitement of Model UN is that here, you can’t persuade an audience with just hard-bred logic or clever argumentation; who you are, and you interact with your fellow delegates too, and sometimes definitively, decides the influence you will wield in committee. Thus, lobbying and persuasion, with research and argument being prerequisites, will go a long way in judging delegates’ performance.

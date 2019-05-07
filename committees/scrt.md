@@ -1,3 +1,8 @@
+---
+name: Special Convention on Religion and Terror
+chairperson: Siddhant Shyam
+---
+
 Greetings to one and all, and welcome to the United Nations Social Convention on Religion and Terror,
 
 Before getting into the formalities, I’d like to introduce myself a little better. I’m in the 12th grade, I study humanities I have a keen interest in MUN, especially DSMUN. apart other MUN’s, DSMUN has always been very close to me and to be chairing a committee is truly a privilege. Dramatics has always been an integral part of my life in school ever since my first founder’s production, I indeed cherish every moment that I’m on stage. As far as sports go, I play both football and hockey further I follow football religiously, I am a huge Manchester United fan. I am an avid reader and an aspiring lawyer, I’m open for conversations on any topic ranging from politics to sports outside the committee.

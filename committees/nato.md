@@ -1,3 +1,8 @@
+---
+name: North Atlantic Treaty Organisation
+chairperson: Aarsh Ashdhir
+---
+
 Dear Delegates,
 
 I am absolutely psyched to welcome you all in what is the most powerful military alliance the world has ever seen. My name is Aarsh Ashdhir and I am in-charge this year of creating a truly unforgettable MUN experience for you. I have been participating in MUNs in various capacities and have won numerous awards in the same. I am also an ardent debater and have debated at various school and national level competitions. Apart from that I am deeply passionate about theatre and am currently heading the activity in school. My spare time is spent listening to John Mayer, Kendrick Lamar and Red Hot Chilli peppers or arguing over G.O.T conspiracy theories. I love reading books and am particularly fond of Haruki Murakami. Assisting me in this MUN would be Vedang Patel and Inderveer Singh.

@@ -1,3 +1,8 @@
+---
+name: United Nations Security Council
+chairperson: Karan Sampath
+---
+
 Greetings Delegates!
 
 As the Chairperson of the United Nations Security Council, I would like to welcome you all to DSMUN’19. I am currently pursuing the IB Diploma with my interests ranging from Computer Science to Economics. On a co-curricular front, my main interests are debating, swimming, reading and writing. Apart from this, I have attended and received awards at multiple MUN conferences, and am an avid debater, having won awards and competitions at the international level.

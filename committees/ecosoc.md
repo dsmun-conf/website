@@ -1,3 +1,8 @@
+---
+name: Economic and Social Council
+chairperson: Karthik Subbiah
+---
+
 Greetings to all members of ECOSOC, and welcome to DSMUN 2019!
 
 The Universal Declaration Human Rights was adopted in 1948, and it has been the UN’s guiding light since then. Despite this, gross human rights violations occur worldwide. Many of these violations occur at individuals’ place of work. Ideally the government would monitor and eliminate these situations, but often the government has no control over them. Unregulated businesses and enterprises comprise a section of the economy called the ‘shadow economy’, and in some countries, it can account for up to 65% of a country’s GDP. Countries that have large shadow economies are often countries with the most human rights violations. This is scary. The countries with the worst human rights violations cannot deal with them because they have no influence over the entities that are causing them. Evidently, dealing with and eliminating countries’ shadow economies, especially in low-income countries, is an important stepping stone on the arduous part to universal human rights.
