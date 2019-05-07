@@ -6,13 +6,15 @@ When I first got to know that I had been appointed chairperson of this committee
 
 Our committee dwells on the “Crimes of the Vatican” and will be a treat for all delegates, who are prepared, of course; because this roller-coaster of a committee will have unexpected twists and turns lurking in the corners.
 
-All in all, I’m hoping that the committee will be a delightful and enjoyable learning experience for one and all. Hoping to see all of you at Chandbagh very soon!  Best of luck!
+All in all, I’m hoping that the committee will be a delightful and enjoyable learning experience for one and all. Hoping to see all of you at Chandbagh very soon! Best of luck!
 
 Grace and peace to you from God, our Father and the Lord Jesus Christ.
 Amen.
 
 Siddhant Shyam
+
 Chairperson
+
 Special Convention on Religion and Terror
 
 ## Agenda

@@ -8,15 +8,16 @@ As a nation and as a world, we are witnessing an era of darkness which is charac
 The committee is expected to discuss various draft bills in detail and either pass or reject them. The members of parliament are expected to follow their parties’ stance on these issues and then accordingly either lobby with the members of parliament to accept their proposal or resist the implementation of the bill. Members can also demonstrate support for individual clauses and not the bill as a whole. Needless to say, all members must strictly adhere to parliamentary language and courteous behaviour. A thorough research and a general understanding of the issues will
 be essential.
 
-As for me, I currently pursue the ISC curriculum in School, and hold a keen interest in
-History and Politics, especially that of our nation. Outside the classroom, I have been
-involved in community service, dramatics and been a member of various clubs and societies related to history and politics in school. I have also taken part in MUNs and other similar conferences, over a span of three years, in various capacities. In addition to this, I enjoy reading about on current affairs. The deputy chairmen- Nirvair Singh and Kartik Singh Rathore - will also help me run the committee.
+As for me, I currently pursue the ISC curriculum in School, and hold a keen interest in History and Politics, especially that of our nation. Outside the classroom, I have been involved in community service, dramatics and been a member of various clubs and societies related to history and politics in school. I have also taken part in MUNs and other similar conferences, over a span of three years, in various capacities. In addition to this, I enjoy reading about on current affairs. The deputy chairmen—Nirvair Singh and Kartik Singh Rathore—will also help me run the committee.
+
 All delegates are welcome to contact us for any help.
 
 Best of luck and hope to see you soon in Chandbagh!
 
 Karanvir Singh Mann
+
 Chairman
+
 Rajya Sabha
 
 ## Agenda

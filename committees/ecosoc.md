@@ -4,14 +4,16 @@ The Universal Declaration Human Rights was adopted in 1948, and it has been the 
 
 Since this is ECOSOC’s sole agenda, committee is expected to arrive at a comprehensive resolution that entails suggestions, implementation, monitoring, and enforcement. Needless to say, each delegate is expected to adhere to the policies of the country they are representing by the letter. Additionally, delegates are expected to have a complete understanding of the agenda, its background, and its implications. In this regard, the background guide is just a starting point for your research. Merely reading the background guide will put you at an acute disadvantage in committee.
 
-I currently pursue the IBDP at school, with my key subjects being History, Math, and Economics. My primary co-curricular interest is music – I play the Santoor, a Classical Indian instrument, and also sing occasionally. I also enjoy quizzes, debates, and of course, MUNs, something I was introduced in my 10th grade. Since then, I have been involved with various MUNs in a multitude of differing roles.
+I currently pursue the IBDP at school, with my key subjects being History, Math, and Economics. My primary co-curricular interest is music—I play the Santoor, a Classical Indian instrument, and also sing occasionally. I also enjoy quizzes, debates, and of course, MUNs, something I was introduced in my 10th grade. Since then, I have been involved with various MUNs in a multitude of differing roles.
 
 The deputy chairpersons, Nishiketh Gupta and Aaryan Bansal, will help me run committee. Please feel free to contact us at the committee email if you have any queries.
 
 Best of Luck. See you in Chandbagh!
 
 Karthik Subbiah
+
 Chairperson
+
 United Nations Economic and Social Council
 
 ## Agenda

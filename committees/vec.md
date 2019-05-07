@@ -1,4 +1,5 @@
 Greetings delegates,
+
 Welcome to the Viceroy’s Executive Council, DSMUN 2019.
 
 The Viceroy’s Executive Council deals with a very sensitive issue in the 1940’s, which was the partition and subsequent independence of India. The reason for this sensitivity can be understood as a by-product of the diversity of cultures, religions and ideologies present in the country. 1946 was an instrumental, yet tragic year in Indian history. Instrumental, because this was the year where concrete declarations of independence were made, and for the first time in history, Indians knew that freedom was just on the horizon. 1946 was tragic for various types of reasons, the first and foremost obviously being the tremendous loss of lives in the various riots and mutinies that took place, like the Bihar riots, or the Royal Indian Navy mutiny. The long term effect was, however, far more significant. 1946 signalled the start of a long term communal enmity, both within India, and with Pakistan, that even now, shows no signs of subsiding.
@@ -14,7 +15,9 @@ As for me, I currently pursue the ISC curriculum in school, with a keen interest
 Best of luck and hope to see you soon in Chandbagh!
 
 Dhanvi Shukla
+
 Chairperson
+
 Viceroy’s Executive Council, 1946
 
 ## Agenda
