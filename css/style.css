@@ -73,6 +73,10 @@ header nav {
     float: right;
 }
 
+header nav ul {
+    line-height: 70%;
+}
+
 header nav ul li {
     margin: 1em;
 }
@@ -81,8 +85,11 @@ header nav ul li {
     header nav ul li {
         display: inline;
     }
-}
 
+    header nav ul {
+        line-height: unset;
+    }
+}
 
 /**
 * Footer

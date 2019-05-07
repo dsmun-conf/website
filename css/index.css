@@ -1,8 +1,26 @@
+.hero {
+    height: calc(100vh - 135px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .gallery ul {
     padding-left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .gallery ul li {
     list-style: none;
     display: inline;
+    margin-right: 0.5em;
+}
+
+.gallery ul li:last-child {
+    margin-right: 0;
 }
