@@ -8,6 +8,6 @@ As Chairperson of the International Press Corps, aided by my Deputy Chairpersons
 
 On a more personal note, no MUN experience would be complete without any relationship building opportunities. To begin with, writing has always been my passion, and I have been writing for numerous school publications for the last five years. I am currently an Editor of the Doon School Weekly; the flagship publication of the school and work as an Associate Editor for other publications. I also began my career in debating five years ago and am now House English Debating Captain. Besides being Editor, I write spoken word, prose-poetry and contemporary articles on a regular basis and have my own collection of poetry going back four years.
 
-Aryaman Kakkar  
-Chairperson  
+Aryaman Kakkar
+Chairperson
 International Press Corps

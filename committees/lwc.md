@@ -8,8 +8,8 @@ With regard to the agenda at hand, we will discuss but one: responding to the ba
 
 One thing I and my deputy Chairpersons, Varen Talwar and Zuber Chawla, can assure you of: your time in committee will be carefully crafted and well planned to help you get the most out of this experience. If you yourselves are prepared too, as I most certainly expect you to be, together we can make this unforgettable.
 
-Aryan Bhattacharjee  
-Chairperson  
+Aryan Bhattacharjee
+Chairperson
 Lincoln’s War Cabinet, 1864
 
 ## Agenda

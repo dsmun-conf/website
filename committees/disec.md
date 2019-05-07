@@ -12,8 +12,8 @@ As for myself, I am in my final year of school and pursue the ISC curriculum. I 
 
 Hope to see you with an umbrella this August in Doon.
 
-Ansh Raj  
-Chairperson  
+Ansh Raj
+Chairperson
 Disarmament and International Security
 
 ## Agenda

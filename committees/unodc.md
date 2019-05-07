@@ -14,8 +14,8 @@ As for me, I currently pursue the ISC curriculum with a gruelling combination of
 
 We hope to see you soon at Chandbagh and best of luck!
 
-Pranav Goel  
-Chairperson  
+Pranav Goel
+Chairperson
 United Nations Office on Drugs and Crime
 
 ## Agenda

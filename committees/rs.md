@@ -15,8 +15,8 @@ All delegates are welcome to contact us for any help.
 
 Best of luck and hope to see you soon in Chandbagh!
 
-Karanvir Singh Mann  
-Chairman  
+Karanvir Singh Mann
+Chairman
 Rajya Sabha
 
 ## Agenda

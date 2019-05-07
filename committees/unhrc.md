@@ -10,8 +10,8 @@ The two Deputy Chairpersons, Viraj Gulati and Bhavtegh Singh Gill, will also hel
 
 Finally, I look forward to welcoming you at DSMUN 2019 in August. Till then, I wish you all the best with your research.
 
-Samarth Mehra  
-Chairperson  
+Samarth Mehra
+Chairperson
 United Nations’ Human Rights Council
 
 ## Agenda

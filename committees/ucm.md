@@ -12,8 +12,8 @@ On a personal note, I currently pursue the IBDP curriculum in School, with a kee
 
 Best of luck and hope to see you soon in Chandbagh!
 
-Paras Gupta  
-Indra Gandhi  
+Paras Gupta
+Indra Gandhi
 Union Council Of Ministers, 1984
 
 ## Agenda

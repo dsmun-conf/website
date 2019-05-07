@@ -11,8 +11,8 @@ All in all, I’m hoping that the committee will be a delightful and enjoyable l
 Grace and peace to you from God, our Father and the Lord Jesus Christ.
 Amen.
 
-Siddhant Shyam  
-Chairperson  
+Siddhant Shyam
+Chairperson
 Special Convention on Religion and Terror
 
 ## Agenda

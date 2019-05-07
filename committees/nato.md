@@ -11,8 +11,8 @@ Before the start of the committee, I expect you all to have spent time researchi
 If you have any doubts please mail me at (<chair.nato@doonschool.com>) or get in touch on FB and I will try my best to reply as soon as possible.
 
 Regards,
-Aarsh Ashdhir (As Jens Stoltenberg)  
-Secretary-General  
+Aarsh Ashdhir (As Jens Stoltenberg)
+Secretary-General
 North Atlantic Treaty Organisation
 
 ## Agenda
