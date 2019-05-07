@@ -1,3 +1,8 @@
+---
+name: Disarmament and International Security
+chairperson: Ansh Raj
+---
+
 Greetings Delegates!
 
 It gives me great pleasure in inviting you to the 13th session of the Doon School Model United Nations. My name is Ansh Raj, and I will be presiding over the General Assembly’s first committee on Disarmament and International Security.

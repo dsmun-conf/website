@@ -1,3 +1,8 @@
+---
+name: International Press Corps
+chairperson: Aryaman Kakkar
+---
+
 Fellow Journalists,
 
 In a time where the acquisition of knowledge and information is free and instantaneous, the job of a journalist is essential. Fake and sensationalist news dominates the minds of readers, showing the common man a detrimental way of looking and thinking about society. At the same time, media sources are beginning to realise the power they hold as the Fourth Estate; the advocates of voices of the people. Over the last year, we have seen journalists rise in their journalistic standards, asking pertinent questions integral to ensuring the transparency that all of us as citizens of a democracy strive to achieve.

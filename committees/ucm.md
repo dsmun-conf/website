@@ -1,3 +1,8 @@
+---
+name: Union Cabinet of Ministers, 1984
+chairperson: Paras Gupta
+---
+
 Greetings Members of the Council and welcome to the Union Council of Ministers, 1984 at DSMUN, 2019!
 
 Diversity has always been a defining value of India, with a position for every belief, culture and language in a land of interwoven communities. While such intermixing of cultures and ethnicities demands tolerance among areas of the subcontinent, clashes between conflicting beliefs threatens to divide India further and force a border between what used to be a united front. The Punjab Insurgency brings back recollection of an agitating period where similar dissension ensued as Hindus and Muslims clamored for a land each their own. Within what we perceive now as a united nation, we consider the possibility of demands for a second secession, as the turbulent Bhindranwale moves the Sikhs against the unyielding Indira Gandhi government.  Religious confrontation has proved to be the most pressing obstacle for India, leading citizens to violence rather than discourse or discussion. It is our collective duty as the Union Council of Ministers to create this debate and take action upon this crucial issue.

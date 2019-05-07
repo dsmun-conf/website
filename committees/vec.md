@@ -1,3 +1,8 @@
+---
+name: Viceroy’s Executive Council, 1946
+chairperson: Dhanvi Shukla
+---
+
 Greetings delegates,
 
 Welcome to the Viceroy’s Executive Council, DSMUN 2019.
