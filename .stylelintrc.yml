@@ -5,6 +5,7 @@ rules:
     indentation: 4
     selector-attribute-operator-space-after: 'always'
     selector-attribute-operator-space-before: 'always'
+    selector-list-comma-newline-after: null
 
     # Re-enable some time
     no-descending-specificity: null

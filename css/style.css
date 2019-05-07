@@ -4,36 +4,40 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('/fonts/lato.woff2') format('woff2'),
-         url('/fonts/lato.woff') format('woff')
-         local('Lato');
+    src:
+        url('/fonts/lato.woff2') format('woff2'),
+        url('/fonts/lato.woff') format('woff')
+        local('Lato');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lora';
-    src: url('/fonts/lora-regular.woff2') format('woff2'),
-         url('/fonts/lora-regular.woff') format('woff')
-         local('Lora');
+    src:
+        url('/fonts/lora-regular.woff2') format('woff2'),
+        url('/fonts/lora-regular.woff') format('woff')
+        local('Lora');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lora';
-    src: url('/fonts/lora-bold.woff2') format('woff2'),
-         url('/fonts/lora-bold.woff') format('woff')
-         local('Lora');
+    src:
+        url('/fonts/lora-bold.woff2') format('woff2'),
+        url('/fonts/lora-bold.woff') format('woff')
+        local('Lora');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lora';
-    src: url('/fonts/lora-italic.woff2') format('woff2'),
-         url('/fonts/lora-italic.woff') format('woff')
-         local('Lora');
+    src:
+        url('/fonts/lora-italic.woff2') format('woff2'),
+        url('/fonts/lora-italic.woff') format('woff')
+        local('Lora');
     font-weight: normal;
     font-style: italic;
 }
@@ -46,7 +50,7 @@ body {
     height: 100vh;
     margin: 0 auto;
     width: 70%;
-    font-family: 'Lora';
+    font-family: 'Lora', 'Garamond Pro', 'Georgia', serif;
 }
 
 main {
@@ -62,7 +66,7 @@ nav ul {
  */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato';
+    font-family: 'Lato', 'Helvetica', 'Ariel', sans-serif;
 }
 
 /**

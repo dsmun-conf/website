@@ -12,7 +12,7 @@
     list-style: none;
     height: 170px;
     background-image: url('http://lorempixel.com/300/175/sports/3');
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
 
