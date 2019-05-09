@@ -1,0 +1,74 @@
+extends /layouts/base.pug
+
+append stylesheets
+    link(rel="stylesheet", href="/css/register.css")
+
+block content
+    h1 Register
+
+    p Once you've made your payment and received your invitation code, send us your delegation's details through this form.
+
+    form(action="", method="post")
+        fieldset
+            label(for="invitation-code") Invitation Code
+            input(type="text", name="invitation-code", minlength="36", maxlength="36", size="36", pattern="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", required)
+
+        fieldset
+            label(for="passenger-count") Passenger count
+            input(type="number", name="passenger-count", min=1, required)
+
+            fieldset
+                label(for="arrival-time") Arrival time
+                input(type="datetime", name="arrival-time", required)
+
+                label(for="mode-arrival") Mode of Travel
+                input(type="radio", name="mode-arrival", value="bus")
+                input(type="radio", name="mode-arrival", value="train")
+                input(type="radio", name="mode-arrival", value="flight")
+
+                label(for="departure-date") Departure date
+                input(type="date", name="departure-date", required)
+                label(for="departure-place") Departure place
+                input(type="text", name="departure-place", required)
+                label(for="arrival-travel-details") Arrival Travel Details
+                textarea(name="arrival-travel-details", cols="30", rows="10")
+
+            fieldset
+                label(for="departure-time") Departure time
+                input(type="datetime", name="departure-time", required)
+
+                label(for="mode-departure") Mode of Travel
+                input(type="radio", name="mode-departure", value="bus")
+                input(type="radio", name="mode-departure", value="train")
+                input(type="radio", name="mode-departure", value="flight")
+
+                label(for="arrival-date") Arrival date
+                input(type="date", name="arrival-date", required)
+                label(for="arrival-place") Arrival place
+                input(type="text", name="arrival-place", required)
+                label(for="departure-travel-details") Depature travel details
+                textarea(name="departure-travel-details", cols="30", rows="10")
+
+        fieldset
+            label(for="school-name") School name
+            input(type="text", name="school-name", required)
+
+            label(for="address-street-name") Street name
+            input(type="text", name="address-street-name", required)
+            label(for="address-city") City
+            input(type="text", name="address-city", required)
+            label(for="address-state") State
+            input(type="text", name="address-state", required)
+
+            label(for="faculty-advisor-name") Faculty Advisor name
+            input(type="text", name="faculty-advisor-name", required)
+
+            label(for="mobile-no") Mobile number
+            input(type="tel", name="mobile-no", required)
+            label(for="landline-no") Landline number
+            input(type="tel", name="landline-no", required)
+            label(for="email") Email
+            input(type="email", name="email", required)
+
+            label(for="delegation-size") Delegation size
+            input(type="number", name="delegation-size", required)
