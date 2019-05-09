@@ -44,7 +44,7 @@ h2 {
     height: 300px;
 }
 
-a[href='/executive-board'] {
+a[href = '/executive-board'] {
     margin: 2em 0;
     text-decoration: none;
     margin-bottom: 5em;
