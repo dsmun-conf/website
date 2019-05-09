@@ -1,0 +1,39 @@
+form {
+    margin-top: 3em;
+}
+
+fieldset {
+    border: 0;
+    background: hsla(0, 0%, 95%, 0.75);;
+    margin: 0 0 3em 0;
+    padding: 2em;
+}
+
+fieldset > fieldset {
+    background: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+input, textarea {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    border: 0;
+    border-radius: 4px;
+    padding: 0.25em 0.5em;
+}
+
+textarea {
+    width: 100%;
+}
+
+input::placeholder {
+    opacity: 0.25;
+}
+
+input[type='submit'] {
+    padding: 1em 2em;
+    margin: 0;
+}
