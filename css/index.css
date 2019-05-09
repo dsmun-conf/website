@@ -11,8 +11,17 @@ h2 {
     width: 100%;
 }
 
+.about {
+    margin-bottom: 12em;
+}
+
 .executive-board {
     text-align: center;
+    margin-bottom: 3em;
+}
+
+.executive-board h1 {
+    margin-bottom: 3em;
 }
 
 .executive-board div {
@@ -38,6 +47,8 @@ h2 {
 a[href='/executive-board'] {
     margin: 2em 0;
     text-decoration: none;
+    margin-bottom: 5em;
+    display: block;
 }
 
 .gallery ul {
