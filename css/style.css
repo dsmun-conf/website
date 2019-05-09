@@ -52,6 +52,7 @@ body {
     width: 90%;
     font-family: 'Lora', 'Garamond Pro', 'Georgia', serif;
     line-height: 1.35;
+    max-width: 1024px;
 }
 
 @media (min-width: 600px) {
@@ -72,9 +73,12 @@ nav ul a {
     text-decoration: none;
 }
 
+figure {
+    text-align: center;
+}
+
 figcaption {
     font-style: italic;
-    line-height: 0.8;
     margin-top: 1em;
     text-align: center;
 }

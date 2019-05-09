@@ -1,10 +1,43 @@
+h2 {
+    text-align: center;
+}
+
 .hero {
-    height: calc(100vh - 135px);
+    height: calc(100vh - 120px);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.executive-board {
+    text-align: center;
+}
+
+.executive-board div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 500px) {
+    .executive-board div {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .executive-board .mugshot {
+        margin: auto;
+    }
+}
+
+.executive-board .mugshot img {
+    height: 300px;
+}
+
+a[href='/executive-board'] {
+    margin: 2em 0;
+    text-decoration: none;
 }
 
 .gallery ul {
