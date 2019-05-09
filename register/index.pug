@@ -6,18 +6,24 @@ append stylesheets
 block content
     h1 Register
 
-    p Once you've made your payment and received your invitation code, send us your delegation's details through this form.
+    p Filling this form with your delegation's details is the second step in registering for DSMUN '19, after successfully making the payment.
 
-    form(action="", method="post")
+    form(action="/register", method="post")
         fieldset
+            h2 Invitation Code
+
+            p After successfully making your payment, you must have received an invitation code. Please enter that here exactly.
+
             label(for="invitation-code") Invitation Code
-            input(type="text", name="invitation-code", minlength="36", maxlength="36", size="36", pattern="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", required)
+            input(type="text", name="invitation-code", minlength="36", maxlength="36", size="36", pattern="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", placeholder="fde925c0-10cd-4053-9d64-c402f98f09ac", required)
 
         fieldset
+            h2 Travel details
             label(for="passenger-count") Passenger count
-            input(type="number", name="passenger-count", min=1, required)
+            input(type="number", name="passenger-count", min=1, placeholder="15", required)
 
             fieldset
+                h3 Arrival
                 label(for="arrival-time") Arrival time
                 input(type="datetime", name="arrival-time", required)
 
@@ -31,9 +37,10 @@ block content
                 label(for="departure-place") Departure place
                 input(type="text", name="departure-place", required)
                 label(for="arrival-travel-details") Arrival Travel Details
-                textarea(name="arrival-travel-details", cols="30", rows="10")
+                textarea(name="arrival-travel-details", rows="5")
 
             fieldset
+                h3 Departure
                 label(for="departure-time") Departure time
                 input(type="datetime", name="departure-time", required)
 
@@ -47,24 +54,25 @@ block content
                 label(for="arrival-place") Arrival place
                 input(type="text", name="arrival-place", required)
                 label(for="departure-travel-details") Depature travel details
-                textarea(name="departure-travel-details", cols="30", rows="10")
+                textarea(name="departure-travel-details", rows="5")
 
         fieldset
+            h2 School details
             label(for="school-name") School name
-            input(type="text", name="school-name", required)
+            input(type="text", name="school-name", placeholder="A School", required)
 
             label(for="address-street-name") Street name
-            input(type="text", name="address-street-name", required)
+            input(type="text", name="address-street-name", placeholder="MK Gandhi Road", required)
             label(for="address-city") City
-            input(type="text", name="address-city", required)
+            input(type="text", name="address-city", placeholder="Dehradun", required)
             label(for="address-state") State
-            input(type="text", name="address-state", required)
+            input(type="text", name="address-state", placeholder="Uttarakhand", required)
 
             label(for="faculty-advisor-name") Faculty Advisor name
-            input(type="text", name="faculty-advisor-name", required)
+            input(type="text", name="faculty-advisor-name", placeholder="John Doe", required)
 
             label(for="mobile-no") Mobile number
-            input(type="tel", name="mobile-no", required)
+            input(type="tel", name="mobile-no", placeholder="+91 9111911100", required)
             label(for="landline-no") Landline number
             input(type="tel", name="landline-no", required)
             label(for="email") Email
@@ -72,3 +80,5 @@ block content
 
             label(for="delegation-size") Delegation size
             input(type="number", name="delegation-size", required)
+
+        input(type="submit", value="Register")
