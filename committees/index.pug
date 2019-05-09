@@ -13,18 +13,5 @@ block content
 
     section.committee-grid
         ul
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-            +committeeThumb("United Nations Security Council", "unsc")
-
-mixin committeeThumb(name, acronym)
-    li(data-committee=name): a(href=`/committees/${acronym}`)=name
+            each committee in collections.committees
+                li: a(href=`/committees/${committee.fileSlug}`)=committee.data.name

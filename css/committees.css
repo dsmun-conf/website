@@ -19,4 +19,23 @@
 .committee-grid ul li a {
     text-decoration: none;
     color: white;
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.mugshot {
+    float: right;
+    margin: 0 0 1em 1em;
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .mugshot {
+        display: block;
+    }
+}
+
+.mugshot img {
+    width: 300px;
 }

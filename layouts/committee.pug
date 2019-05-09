@@ -1,7 +1,16 @@
 extends /layouts/base.pug
 
+append stylesheets
+    link(rel="stylesheet", href="/css/committees.css")
+
 block content
     article
-        h1=page.fileSlug
+        h1=name
+
+        figure.chair.mugshot
+            img(src=`/img/chairpersons/${page.fileSlug}.jpg`)
+            figcaption
+                p #{chairperson}
+                p: a(href=`${page.fileSlug}@dsmun.in`) #{page.fileSlug}@dsmun.in
 
         | !{content}
