@@ -49,8 +49,15 @@
 body {
     height: 100vh;
     margin: 0 auto;
-    width: 70%;
+    width: 90%;
     font-family: 'Lora', 'Garamond Pro', 'Georgia', serif;
+    line-height: 1.35;
+}
+
+@media (min-width: 600px) {
+    body {
+        width: 70%;
+    }
 }
 
 main {
@@ -59,6 +66,17 @@ main {
 
 nav ul {
     padding-left: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+figcaption {
+    font-style: italic;
+    line-height: 0.8;
+    margin-top: 1em;
+    text-align: center;
 }
 
 /**
@@ -85,7 +103,7 @@ header nav ul li {
     margin: 1em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 720px) {
     header nav ul li {
         display: inline;
     }
@@ -105,6 +123,7 @@ footer {
     font-size: 80%;
     border-top: hsla(0, 0%, 70%) solid 1px;
     padding: 1em 0;
+    margin-top: 5em;
 }
 
 @media (min-width: 700px) {
@@ -117,6 +136,10 @@ footer address,
 footer > p,
 footer > nav {
     flex: 1;
+}
+
+footer address {
+    flex-grow: 2;
 }
 
 footer nav ul li {
