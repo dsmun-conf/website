@@ -1,6 +1,14 @@
+.mugshot {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .mugshot img {
     height: 300px;
+}
+
+h1, h2 {
+    text-align: center;
 }
 
 .dep-sec-gens div,
@@ -10,11 +18,19 @@
     flex-direction: column;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 910px) {
     .dep-sec-gens div,
     .crisis-directors div,
     .vice-presidents div {
         flex-direction: row;
         justify-content: start;
+    }
+
+    .mugshot {
+        margin-right: 2em;
+    }
+
+    h1, h2 {
+        text-align: unset;
     }
 }
