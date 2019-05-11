@@ -4,7 +4,9 @@ html(lang="en")
     include /partials/head.pug
 
     body
+        include /partials/header.pug
+
         main
-            include /partials/header.pug
             block content
-            include /partials/footer.pug
+
+        include /partials/footer.pug
