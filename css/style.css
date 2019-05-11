@@ -49,20 +49,21 @@
 body {
     height: 100vh;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     font-family: 'Lora', 'Garamond Pro', 'Georgia', serif;
     line-height: 1.35;
     max-width: 1024px;
 }
 
-@media (min-width: 600px) {
-    body {
-        width: 70%;
-    }
+header, main, footer {
+    width: 90%;
+    margin: 0 auto;
 }
 
-main {
-    height: 100%;
+@media (min-width: 600px) {
+    header, main, footer {
+        width: 70%;
+    }
 }
 
 nav ul {
