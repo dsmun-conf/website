@@ -103,7 +103,7 @@ header {
 
 header nav {
     float: right;
-    font-family: 'Lato Black';
+    font-family: 'Lato Black', 'Helvetica', 'Ariel', sans-serif;
     text-transform: uppercase;
 }
 
