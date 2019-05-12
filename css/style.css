@@ -99,6 +99,9 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding-top: 1em;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav {
@@ -108,7 +111,6 @@ header nav {
 }
 
 header nav ul {
-    line-height: 70%;
     list-style: none;
 }
 
@@ -116,7 +118,11 @@ header nav ul li {
     margin: 1em;
 }
 
-@media (min-width: 1000px) {
+header nav ul li a {
+    color: black;
+}
+
+@media (min-width: 1050px) {
     header nav ul li {
         display: inline;
     }

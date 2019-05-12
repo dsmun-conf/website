@@ -13,7 +13,7 @@ header .logo {
     mix-blend-mode: color-dodge;
 }
 
-header nav ul a {
+header nav ul li a {
     color: whitesmoke;
 }
 
