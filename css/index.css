@@ -1,3 +1,22 @@
+.over-the-fold {
+    background: url('/img/bell.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-position: 50% 50%;
+}
+
+header .logo {
+    mix-blend-mode: color-dodge;
+}
+
+header nav ul a {
+    color: whitesmoke;
+}
+
 h2 {
     text-align: center;
 }
@@ -9,10 +28,11 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 100%;
+    color: whitesmoke;
 }
 
 .about {
-    margin-bottom: 12em;
+    margin: 12em 0;
 }
 
 .executive-board {

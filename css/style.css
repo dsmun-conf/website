@@ -52,12 +52,13 @@ body {
     width: 100%;
     font-family: 'Lora', 'Garamond Pro', 'Georgia', serif;
     line-height: 1.35;
-    max-width: 1024px;
+    background-color: hsla(0, 0%, 90%, 0.5);
 }
 
 header, main, footer {
     width: 90%;
     margin: 0 auto;
+    max-width: 1024px;
 }
 
 @media (min-width: 600px) {
