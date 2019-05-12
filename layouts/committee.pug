@@ -10,7 +10,16 @@ block content
         figure.chair.mugshot
             img(src=`/img/chairpersons/${page.fileSlug}.jpg`, alt="Chairperson mugshot")
             figcaption
+
+                - let email;
+
+                - if (page.fileSlug.startsWith('un')) {
+                    - email = `chair.${page.fileSlug.substring(2)}@doonschool.com`;
+                - } else {
+                    - email = `chair.${page.fileSlug}@doonschool.com`;
+                - }
+
                 p #{chairperson}
-                p: a(href=`${page.fileSlug}@dsmun.in`) #{page.fileSlug}@dsmun.in
+                    p: a(href=`mailto:${email}`)=email
 
         | !{content}
