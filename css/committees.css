@@ -13,7 +13,7 @@
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 850px) {
     .committee-grid ul {
         grid-template-columns: 33% 33% 33%;
     }
@@ -25,14 +25,21 @@
     background-image: url('http://lorempixel.com/300/175/sports/3');
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    transition: background-color 0.2s;
+}
+
+.committee-grid ul li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .committee-grid ul li a {
     text-decoration: none;
     color: white;
-    display: block;
+    display: flex;
     height: 100%;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .mugshot {
