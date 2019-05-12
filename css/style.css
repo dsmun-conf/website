@@ -96,19 +96,26 @@ h1, h2, h3, h4, h5, h6 {
  * Header
  */
 
+header {
+    padding-top: 1em;
+}
+
 header nav {
     float: right;
+    font-family: 'Lato Black';
+    text-transform: uppercase;
 }
 
 header nav ul {
     line-height: 70%;
+    list-style: none;
 }
 
 header nav ul li {
     margin: 1em;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1000px) {
     header nav ul li {
         display: inline;
     }
