@@ -32,7 +32,7 @@ h2 {
 }
 
 .about {
-    margin: 12em 0;
+    margin: 9em 0;
 }
 
 .executive-board {
@@ -40,8 +40,8 @@ h2 {
     margin-bottom: 3em;
 }
 
-.executive-board h1 {
-    margin-bottom: 3em;
+.executive-board h2 {
+    margin-bottom: 2em;
 }
 
 .executive-board div {
@@ -87,4 +87,8 @@ h2 {
 
 .gallery ul li:last-child {
     margin-right: 0;
+}
+
+.gallery h2 {
+    margin-bottom: 2em;
 }
