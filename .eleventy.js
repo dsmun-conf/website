@@ -2,6 +2,7 @@ module.exports = (conf) => {
     conf.addPassthroughCopy('css');
     conf.addPassthroughCopy('js');
     conf.addPassthroughCopy('img');
+    conf.addPassthroughCopy('fonts');
 
     conf.addPassthroughCopy('favicon.ico');
     conf.addPassthroughCopy('manifest.json');
