@@ -1,4 +1,4 @@
 {
     "tags": "addresses",
-    "layout": "../layouts/article.pug"
+    "layout": "../layouts/address.pug"
 }

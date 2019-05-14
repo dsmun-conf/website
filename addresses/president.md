@@ -1,3 +1,5 @@
+![President's mugshot](/img/executive-board/nandil.jpg)
+
 Greetings!
 
 As the President of the Doon School Model United Nations Society, it gives me immense pleasure to invite you to the 13th Session of the Doon School Model United Nations Conference. Being at the pinnacle of a conference that finds itself amidst the top ranks in the country, both in terms of global outreach and quality, has been an absolute honour. However, we at Doon constantly strive to outdo ourselves and promise that this edition of DSMUN will outdo all of its predecessors be it in terms of organizational skill, quality of debate or participation not just from the South Asian region but from around the world. It is with this vision in mind that I extend my heartiest welcome to each one of you to this year’s conference.

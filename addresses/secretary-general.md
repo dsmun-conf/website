@@ -1,3 +1,5 @@
+![Secretary-General's mugshot](/img/executive-board/vikram.jpg)
+
 Dear delegates,
 
 As the Secretary General, It is my honour and privilege to welcome you all to the 13th Doon School Model United Nations Conference. DSMUN has been growing exponentially and actively augmenting the level and intensity of crises, debate and co-operation with each passing year. It is a legacy that we hope to continue and reinforce with this year’s conference.
