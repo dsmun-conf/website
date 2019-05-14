@@ -23,14 +23,6 @@ h1, h2 {
     .crisis-directors div,
     .vice-presidents div {
         flex-direction: row;
-        justify-content: start;
-    }
-
-    .mugshot {
-        margin-right: 2em;
-    }
-
-    h1, h2 {
-        text-align: unset;
+        justify-content: space-evenly;
     }
 }
