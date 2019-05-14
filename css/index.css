@@ -64,17 +64,18 @@ h2 {
     height: 300px;
 }
 
-.executive-board a{
-    margin: 2em 0;
+.executive-board a {
     text-decoration: none;
-    margin-bottom: 5em;
     display: inline-block;
     padding: 0.75em 0.75em;
     border: 1px solid #009ade;
     border-radius: 7px;
     color: #009ade;
     font-style: normal;
+}
 
+.executive-board a[href = '/executive-board'] {
+    margin-top: 2em;
 }
 
 .gallery ul {
