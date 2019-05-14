@@ -82,3 +82,47 @@ block content
             input(type="number", name="delegation-size", required)
 
         input(type="submit", value="Register")
+
+        fieldset
+            h2 Escort Information
+
+            label(for="escort-name") Escort name
+            input(type="text", name="escort-name", placeholder="John Doe", required)
+
+            label(for="gender") Gender
+            input(type="radio" name="gender" value="male")
+            label(for="male") Male
+            input(type="radio" name="gender" value="female")
+            label(for="female") Female
+            input(type="radio" name="gender" value="other")
+            label(for="other") Other
+
+            label(for="meal-preference") Meal Preference
+            input(type="radio" name="meal-preference" value="vegetarian")
+            label(for="vegetarian") Vegetarian
+            input(type="radio" name="meal-preference" value="non-vegetarian")
+            label(for="non-vegetarian") Non-Vegetarian
+
+        fieldset
+            h2 Delegate Information
+            label(for="delegate-name") Delegate name
+            input(type="text", name="delegate-name", placeholder="John Doe", required)
+
+            label(for="committee-preference") Committee Preference
+            select(name="committee-preference") Committee Preference
+                each committee in collections.committees
+                    option(value=committee.fileSlug)=committee.name
+
+            label(for="gender") Gender
+            input(type="radio" name="gender" value="male")
+            label(for="male") Male
+            input(type="radio" name="gender" value="female")
+            label(for="female") Female
+            input(type="radio" name="gender" value="other")
+            label(for="other") Other
+
+            label(for="meal-preference") Meal Preference
+            input(type="radio" name="meal-preference" value="vegetarian")
+            label(for="vegetarian") Vegetarian
+            input(type="radio" name="meal-preference" value="non-vegetarian")
+            label(for="non-vegetarian") Non-Vegetarian
