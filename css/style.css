@@ -104,7 +104,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #009ade
+    color: hsl(198, 100%, 44%);
+    transition: color 0.2s;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: hsl(198, 100%, 30%);
 }
 
 /**
@@ -133,7 +140,13 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: black;
+    color: hsl(0, 0%, 0%);
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus,
+header nav ul li a:active {
+    color: hsl(0, 0%, 40%);
 }
 
 @media (min-width: 1050px) {

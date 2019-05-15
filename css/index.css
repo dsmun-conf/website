@@ -14,7 +14,13 @@ header .logo {
 }
 
 header nav ul li a {
-    color: whitesmoke;
+    color: hsl(0, 0%, 96%);
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus,
+header nav ul li a:active {
+    color: hsl(0, 0%, 75%);
 }
 
 h2 {
@@ -28,7 +34,7 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: whitesmoke;
+    color: hsl(0, 0%, 96%);
 }
 
 .about {
@@ -64,14 +70,22 @@ h2 {
     height: 300px;
 }
 
-.executive-board a {
+.button {
     text-decoration: none;
     display: inline-block;
     padding: 0.75em 0.75em;
-    border: 1px solid #009ade;
+    border: 1px solid hsl(198, 100%, 44%);
     border-radius: 7px;
-    color: #009ade;
+    color: hsl(198, 100%, 44%);
     font-style: normal;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    color: hsl(198, 100%, 30%);
+    border-color: hsl(198, 100%, 30%);
 }
 
 .executive-board a[href = '/executive-board'] {
