@@ -15,7 +15,7 @@
 @font-face {
     font-family: 'Lato Black';
     src:
-        local('Lato'),
+        local('Lato Black'),
         url('/fonts/lato-black.woff2') format('woff2'),
         url('/fonts/lato-black.woff') format('woff');
     font-weight: normal;
