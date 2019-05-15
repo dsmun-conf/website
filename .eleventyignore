@@ -2,3 +2,4 @@ node_modules/
 ./readme.md
 layouts/
 partials/
+register/server
