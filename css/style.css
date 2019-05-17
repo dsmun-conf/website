@@ -177,7 +177,7 @@ footer {
     margin-top: 5em;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     footer {
         flex-direction: row;
     }
