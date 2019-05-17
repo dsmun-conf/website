@@ -125,6 +125,11 @@ header {
     justify-content: space-between;
 }
 
+.logo,
+.logo img {
+    height: 120px;
+}
+
 header nav {
     float: right;
     font-family: 'Lato Black', 'Helvetica', 'Ariel', sans-serif;
