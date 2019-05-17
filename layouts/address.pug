@@ -2,20 +2,7 @@
 extends /layouts/base.pug
 
 append stylesheets
-    //- TODO: Move styles out of here
-    style.
-        article img {
-            height: 300px;
-            float: right;
-            margin: 0 0 1em 1em;
-            display: none;
-        }
-
-        @media (min-width: 500px) {
-            article img {
-                display: block;
-            }
-        }
+    link(rel="stylesheet", href="/css/address.css")
 
 block content
     article
