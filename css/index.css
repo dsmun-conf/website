@@ -20,7 +20,7 @@ header nav ul li a {
 header nav ul li a:hover,
 header nav ul li a:focus,
 header nav ul li a:active {
-    color: hsl(0, 0%, 75%);
+    color: hsl(0, 0%, 80%);
 }
 
 h2 {
