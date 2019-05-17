@@ -47,11 +47,11 @@ block content
     section.gallery
         h2 Gallery
 
+        //- TODO: Find a way to not hard-code the number of images
+        - const count = 16;
+
+        - let i = 1;
+
         ul
-            li: img(src="http://lorempixel.com/300/175/sports/3", alt="")
-            li: img(src="http://lorempixel.com/300/175/sports/3", alt="")
-            li: img(src="http://lorempixel.com/300/175/sports/3", alt="")
-            li: img(src="http://lorempixel.com/300/175/sports/3", alt="")
-            li: img(src="http://lorempixel.com/300/175/sports/3", alt="")
-            li: img(src="http://lorempixel.com/300/175/sports/3", alt="")
-            li: img(src="http://lorempixel.com/300/175/sports/3", alt="")
+            while i < count
+                li: img(src=`/img/gallery/gallery-item-${i++}.jpg`, alt="")
