@@ -48,10 +48,10 @@ block content
         h2 Gallery
 
         //- TODO: Find a way to not hard-code the number of images
-        - const count = 16;
+        - const count = 15;
 
         - let i = 1;
 
         ul
-            while i < count
+            while i <= count
                 li: img(src=`/img/gallery/gallery-item-${i++}.jpg`, alt="")
