@@ -100,3 +100,23 @@ h2 {
 .gallery img {
     height: 225px;
 }
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical,
+::-webkit-scrollbar:horizontal {
+    height: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 75%);
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+}
