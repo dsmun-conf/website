@@ -19,7 +19,7 @@ Regards,
 
 Aarsh Ashdhir (As Jens Stoltenberg)
 
-Secretary-General
+Secretary General
 
 North Atlantic Treaty Organisation
 
