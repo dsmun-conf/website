@@ -47,18 +47,22 @@
 }
 
 .mugshot {
-    float: right;
-    margin: 0 0 1em 1em;
-    display: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.mugshot img {
+    height: 250px;
 }
 
 @media (min-width: 700px) {
     .mugshot {
-        display: block;
+        float: right;
+        margin: 0 0 1em 1em;
+        width: unset;
     }
-}
 
-.mugshot img {
-    width: 300px;
-    height: 450px;
+    .mugshot img {
+        height: 450px;
+    }
 }

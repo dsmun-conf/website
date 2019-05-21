@@ -1,13 +1,16 @@
-article img {
-    width: 300px;
-    height: 450px;
-    float: right;
-    margin: 0 0 1em 1em;
-    display: none;
+/* TODO: Share this with /css/committees.css rather than duplicating */
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
 }
 
-@media (min-width: 500px) {
-    article img {
-        display: block;
+@media (min-width: 700px) {
+    img {
+        float: right;
+        margin: 0 0 1em 1em;
+        width: unset;
+        height: 450px;
     }
 }
