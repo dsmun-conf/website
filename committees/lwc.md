@@ -1,5 +1,5 @@
 ---
-name: Lincoln's War Cabinet, 1964
+name: Lincoln's War Cabinet, 1864
 chairperson: Aryan Bhattacharjee
 ---
 
