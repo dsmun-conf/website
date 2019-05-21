@@ -3,4 +3,5 @@ node_modules/
 layouts/
 partials/
 register/server
-mixins
+mixins/
+redirect/
