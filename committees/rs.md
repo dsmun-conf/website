@@ -27,5 +27,5 @@ Rajya Sabha
 
 ## Agenda
 
-- Universal Basic Income
-- Reformation of Population Control Measures in India
+- Universal Basic Income Scheme Act
+- Comprehensive ecology, wildlife, environment protection act
