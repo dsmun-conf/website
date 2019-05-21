@@ -1,3 +1,7 @@
+---
+title: Secretary General's Address
+---
+
 ![Secretary-General's mugshot](/img/executive-board/vikram.jpg)
 
 Dear delegates,

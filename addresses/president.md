@@ -1,3 +1,7 @@
+---
+title: President's Address
+---
+
 ![President's mugshot](/img/executive-board/nandil.jpg)
 
 Greetings!
