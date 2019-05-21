@@ -1,0 +1,17 @@
+---
+layout: null
+---
+
+extends /layouts/base.pug
+
+append stylesheets
+    style.
+        .addresses { list-style: none; padding-left: 0; }
+        .addresses li { display: inline; margin-right: 1em; }
+
+block content
+    h1 Addresses
+
+    ul.addresses
+        li: a.button(href="/addresses/president") President's Address
+        li: a.button(href="/addresses/secretary-general") Secretary General's Address
