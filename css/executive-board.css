@@ -26,4 +26,8 @@ h1, h2 {
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    .mugshot {
+        width: 200px;
+    }
 }
