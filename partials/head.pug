@@ -3,6 +3,14 @@ head
     meta(http-equiv="x-ua-compatible" content="ie=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
 
+    if page.url == '/'
+        link(rel="preload", href="/img/bell.jpg", as="image", importance="high")
+
+    link(rel="preload", href="/fonts/lato-regular.woff2", as="font", type="font/woff2", crossorigin)
+    link(rel="preload", href="/fonts/lato-black.woff2", as="font", type="font/woff2", crossorigin)
+    link(rel="preload", href="/fonts/lora-regular.woff2", as="font", type="font/woff2", crossorigin)
+    link(rel="preload", href="/img/logo-optimized.svg", as="image", importance="high")
+
     block stylesheets
         link(rel="stylesheet", href="/css/sanitize.css")
         link(rel="stylesheet", href="/css/style.css")
@@ -23,4 +31,4 @@ head
     link(rel="manifest", href="/manifest.json")
 
     block scripts
-        script(src="/js/fathom.js")
+        script(src="/js/fathom.js", defer)
