@@ -1,2 +1,5 @@
 User-agent: *
 Sitemap: https://dsmun.in/sitemap.xml
+
+Disallow: /_src
+Disallow: /_logs
