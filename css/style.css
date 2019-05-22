@@ -10,16 +10,18 @@
         url('/fonts/lato-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato Black';
+    font-family: 'Lato';
     src:
         local('Lato Black'),
         url('/fonts/lato-black.woff2') format('woff2'),
         url('/fonts/lato-black.woff') format('woff');
-    font-weight: normal;
+    font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -30,6 +32,7 @@
         url('/fonts/lora-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -40,6 +43,7 @@
         url('/fonts/lora-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -50,6 +54,7 @@
         url('/fonts/lora-italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
+    font-display: swap;
 }
 
 /**
@@ -61,6 +66,7 @@ body {
     margin: 0 auto;
     width: 100%;
     font-family: 'Lora', 'Garamond Pro', 'Georgia', serif;
+    font-weight: normal;
     line-height: 1.35;
     background-color: hsla(0, 0%, 90%, 0.5);
 }
@@ -119,6 +125,7 @@ figcaption {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', 'Helvetica', 'Ariel', sans-serif;
+    font-weight: normal;
 }
 
 a {
@@ -130,6 +137,10 @@ a:hover,
 a:focus,
 a:active {
     color: hsl(198, 100%, 35%);
+}
+
+b, strong {
+    font-weight: bold;
 }
 
 /**
@@ -150,7 +161,8 @@ header {
 
 header nav {
     float: right;
-    font-family: 'Lato Black', 'Helvetica', 'Ariel', sans-serif;
+    font-family: 'Lato', 'Helvetica', 'Ariel', sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
 }
 

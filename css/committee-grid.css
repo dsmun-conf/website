@@ -27,7 +27,8 @@
     background-color: hsla(0, 0%, 0%, 0.5);
     background-blend-mode: overlay;
     transition: background-color 0.2s;
-    font-family: 'Lato Black', 'Helvetica', 'Ariel', sans-serif;
+    font-family: 'Lato', 'Helvetica', 'Ariel', sans-serif;
+    font-weight: 900;
 }
 
 .committee-grid ul li:hover,
