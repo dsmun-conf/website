@@ -213,16 +213,15 @@ footer {
     }
 }
 
-footer address,
-footer > p,
-footer > nav {
+footer div,
+footer > p {
     flex: 1;
 }
 
-footer address {
-    flex-grow: 2;
+footer .copyright {
+    margin-bottom: 2em;
 }
 
-footer nav ul li {
-    list-style: disc;
+footer div {
+    flex-grow: 2;
 }
