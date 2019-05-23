@@ -26,4 +26,3 @@ Disarmament and International Security
 ## Agenda
 
 - Regulation of Arms Trade
-- Denuclearisation of Indo-Pak
