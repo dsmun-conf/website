@@ -1,0 +1,162 @@
+extends /layouts/base.pug
+
+append stylesheets
+    link(rel="stylesheet", href="/css/register.css")
+
+append scripts
+    script(src="/js/register.js")
+
+block content
+    h1 Register
+
+    p Filling this form with your delegation's details is the second step in registering for DSMUN '19, after successfully making the payment.
+
+    form(action="/register", method="post")
+        section
+            h2 Invitation Code
+
+            p After successfully making your payment, you must have received an invitation code. Please enter that here exactly.
+
+            label Invitation Code
+                input(type="text", name="invitation-code", minlength="36", maxlength="36", size="38", pattern="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", placeholder="fde925c0-10cd-4053-9d64-c402f98f09ac", required)
+
+        section
+            h2 Travel details
+
+            label Passenger count
+                input(type="number", name="passenger-count", min=1, value="1", placeholder="15", required)
+
+            section
+                h3 Arrival
+
+                label Arrival time
+                    input(type="datetime", name="arrival-time", required)
+
+                fieldset.radio-buttons
+                    legend Mode of Travel
+
+                    label Bus
+                        input(type="radio", name="mode-departure", value="bus", required)
+                    label Train
+                        input(type="radio", name="mode-departure", value="train", required)
+                    label Flight
+                        input(type="radio", name="mode-departure", value="flight", required)
+
+                label Departure date
+                    input(type="date", name="departure-date", required)
+                label Departure place
+                    input(type="text", name="departure-place", required)
+                label Arrival Travel Details
+                    textarea(name="arrival-travel-details", rows="5")
+
+            section
+                h3 Departure
+
+                label Departure time
+                    input(type="datetime", name="departure-time", required)
+
+                fieldset.radio-buttons
+                    legend Mode of Travel
+
+                    label Bus
+                        input(type="radio", name="mode-departure", value="bus", required)
+                    label Train
+                        input(type="radio", name="mode-departure", value="train", required)
+                    label Flight
+                        input(type="radio", name="mode-departure", value="flight", required)
+
+                label Arrival date
+                    input(type="date", name="arrival-date", required)
+                label Arrival place
+                    input(type="text", name="arrival-place", required)
+                label Depature travel details
+                    textarea(name="departure-travel-details", rows="5")
+
+        section
+            h2 School details
+
+            label School name
+                input(type="text", name="school-name", placeholder="A School", required)
+
+            label Street name
+                input(type="text", name="address-street-name", placeholder="MK Gandhi Road", required)
+            label City
+                input(type="text", name="address-city", placeholder="Dehradun", required)
+            label State
+                input(type="text", name="address-state", placeholder="Uttarakhand", required)
+
+            label Faculty Advisor name
+                input(type="text", name="faculty-advisor-name", placeholder="John Doe", required)
+
+            label Mobile number
+                input(type="tel", name="mobile-no", placeholder="+91 9111911100", required)
+            label Landline number
+                input(type="tel", name="landline-no", placeholder="040 40120016")
+            label Email
+                input(type="email", name="email", placeholder="john@example.com", required)
+
+            label Delegation size
+                input(type="number", name="delegation-size", min="1", value="1", placeholder="14", required)
+
+        section
+            h2 Escort Information
+
+            label Escort name
+                input(type="text", name="escort-name", placeholder="John Doe", required)
+
+            label Mobile number
+                input(type="tel", name="escort-mobile-no", placeholder="+91 9111911100", required)
+            label Email
+                input(type="email", name="escort-email", placeholder="john@example.com", required)
+
+            fieldset.radio-buttons
+                legend Gender
+
+                label Male
+                    input(type="radio" name="escort-gender" value="male" required)
+                label Female
+                    input(type="radio" name="escort-gender" value="female" required)
+                label Other
+                    input(type="radio" name="escort-gender" value="other" required)
+
+            fieldset.radio-buttons
+                legend Meal Preference
+
+                label Vegetarian
+                    input(type="radio" name="escort-meal-preference" value="vegetarian" required)
+                label Non-Vegetarian
+                    input(type="radio" name="escort-meal-preference" value="non-vegetarian" required)
+
+        section.delegate-info
+            h2 Delegate Information
+
+            fieldset.each-delegate-info
+                label Delegate name
+                    input(type="text", name="delegate-ba197f-name", placeholder="John Doe", required)
+
+                fieldset.radio-buttons
+                    legend Gender
+
+                    label Male
+                        input(type="radio" name="delegate-ba197f-gender" value="male" required)
+                    label Female
+                        input(type="radio" name="delegate-ba197f-gender" value="female" required)
+                    label Other
+                        input(type="radio" name="delegate-ba197f-gender" value="other" required)
+
+                fieldset.radio-buttons
+                    legend Meal Preference
+
+                    label Vegetarian
+                        input(type="radio" name="delegate-ba197f-meal-preference" value="vegetarian" required)
+                    label Non-Vegetarian
+                        input(type="radio" name="delegate-ba197f-meal-preference" value="non-vegetarian" required)
+
+                label Medical history, needs or complications
+                    textarea(name="delegate-ba197f-medical-history", rows="2")
+
+                button(type="button").delete-delegate Delete this delegate
+
+            button(type="button").add-delegate Add delegate
+
+        input.button(type="submit", value="Register")

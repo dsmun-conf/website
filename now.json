@@ -3,6 +3,20 @@
     "name": "dsmun19",
     "alias": "dsmun.in",
     "builds": [
-        { "src": "package.json", "use": "@now/static-build" }
-    ]
+        { "src": "package.json", "use": "@now/static-build" },
+        { "src": "register/server/index.mjs", "use": "@now/node-server" }
+    ],
+    "routes": [
+        {
+            "src": "/register",
+            "dest": "register/server/index.mjs",
+            "methods": ["POST"]
+        }
+    ],
+    "env": {
+        "INVITATION_CODES": "@invitation-codes",
+        "SENDER_EMAIL": "@sender-email",
+        "SENDER_EMAIL_PASSWORD": "@sender-email-password",
+        "EMAIL_RECIPIENTS": "@email-recipients"
+    }
 }
