@@ -1,6 +1,6 @@
 ---
 title: Submission unsuccessful
-# layout: article
+layout: article
 eleventyExcludeFromCollections: true
 ---
 
