@@ -6,6 +6,10 @@ img {
     height: 250px;
 }
 
+h1 {
+    text-align: center;
+}
+
 @media (min-width: 700px) {
     img {
         float: right;
@@ -13,4 +17,9 @@ img {
         width: unset;
         height: 450px;
     }
+
+    h1 {
+        text-align: left;
+    }
+
 }

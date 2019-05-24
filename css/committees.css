@@ -13,7 +13,7 @@ h1 {
 
 @media (min-width: 700px) {
     h1 {
-        text-align: left;
+        text-align: center;
     }
 
     .mugshot {
