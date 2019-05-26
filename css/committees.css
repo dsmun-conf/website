@@ -26,3 +26,17 @@ h1 {
         height: 450px;
     }
 }
+
+.delegate-resources {
+    list-style: none;
+    padding-left: 0;
+}
+
+.delegate-resources li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.delegate-resources li:last-child {
+    margin-right: 0;
+}
