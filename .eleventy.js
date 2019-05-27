@@ -5,6 +5,7 @@ module.exports = (conf) => {
     conf.addPassthroughCopy('fonts');
     conf.addPassthroughCopy('pdf');
 
+    conf.addPassthroughCopy('robots.txt');
     conf.addPassthroughCopy('favicon.ico');
     conf.addPassthroughCopy('manifest.json');
 
