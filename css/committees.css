@@ -33,8 +33,16 @@ h1 {
 }
 
 .delegate-resources li {
-    display: inline-block;
-    margin-right: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 700px) {
+    .delegate-resources li {
+        display: inline-block;
+        margin-right: 1em;
+        margin-bottom: 0;
+    }
 }
 
 .delegate-resources li:last-child {
