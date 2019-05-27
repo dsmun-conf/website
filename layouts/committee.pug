@@ -34,6 +34,8 @@ block content
             p Country matrices will be available soon.
 
         ul.delegate-resources
+            li: a.button(href=`/pdf/background-guides/${page.fileSlug}.pdf`, target="_blank") Background Guide
+
             if page.fileSlug != 'ls' && page.fileSlug != 'rs'
                 li: a.button(href=`/pdf/country-matrices/${page.fileSlug}.pdf`, target="_blank") Country Matrix
 
