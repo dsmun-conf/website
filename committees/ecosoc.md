@@ -11,7 +11,7 @@ Since this is ECOSOC’s sole agenda, committee is expected to arrive at a compr
 
 I currently pursue the IBDP at school, with my key subjects being History, Math, and Economics. My primary co-curricular interest is music—I play the Santoor, a Classical Indian instrument, and also sing occasionally. I also enjoy quizzes, debates, and of course, MUNs, something I was introduced in my 10th grade. Since then, I have been involved with various MUNs in a multitude of differing roles.
 
-The deputy chairpersons, Nishiketh Gupta and Aaryan Bansal, will help me run committee. Please feel free to contact us at the committee email if you have any queries.
+The deputy chairpersons, Nishiketh Gupta and Aryan Kasera, will help me run committee. Please feel free to contact us at the committee email if you have any queries.
 
 Best of Luck. See you in Chandbagh!
 
