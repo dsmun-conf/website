@@ -48,7 +48,7 @@ function eachDelegateInfo(randomString) {
             <input type="radio" name="delegate-${randomString}-meal-preference" value="non-vegetarian" required>
         </label>
     </fieldset>
-    <label>Medical history, needs or complications
+    <label>Medical history, needs or complications (optional)
         <textarea name="delegate-${randomString}-medical-history" rows="2"></textarea>
     </label>
     <button class="delete-delegate" type="button">Delete this delegate</button>

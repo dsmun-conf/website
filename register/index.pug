@@ -23,6 +23,8 @@ block content
         section
             h2 Travel details
 
+            p This section is required only for schools outside Dehradun.
+
             label Passenger count
                 input(type="number", name="passenger-count", min=0, placeholder="15")
 
@@ -152,7 +154,7 @@ block content
                     label Non-Vegetarian
                         input(type="radio" name="delegate-ba197f-meal-preference" value="non-vegetarian" required)
 
-                label Medical history, needs or complications
+                label Medical history, needs or complications (optional)
                     textarea(name="delegate-ba197f-medical-history", rows="2")
 
                 button(type="button").delete-delegate Delete this delegate
