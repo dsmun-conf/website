@@ -10,6 +10,10 @@
     background-position: 50% 50%;
 }
 
+header .logo {
+    mix-blend-mode: screen;
+}
+
 header nav ul li a {
     color: hsl(0, 0%, 96%);
 }
