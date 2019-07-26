@@ -6,6 +6,7 @@ window.addEventListener('load', () => {
         addDelegateButton.insertAdjacentHTML('beforebegin', eachDelegateInfo(randomString));
 
         addDeleteDelegateEventListeners('.delete-delegate:last-child');
+        updateDelegateCount();
     });
 
     addDeleteDelegateEventListeners('.delete-delegate');
@@ -17,6 +18,7 @@ function addDeleteDelegateEventListeners(selector) {
     for (const deleteDelegateButton of deleteDelegateButtons) {
         deleteDelegateButton.addEventListener('click', () => {
             deleteDelegateButton.parentElement.remove();
+            updateDelegateCount();
         });
     }
 }
@@ -54,4 +56,10 @@ function eachDelegateInfo(randomString) {
     <button class="delete-delegate" type="button">Delete this delegate</button>
 </fieldset>
     `;
+}
+
+function updateDelegateCount() {
+    const count = document.querySelectorAll('.each-delegate-info').length;
+    const placeholder = document.querySelector('.count');
+    placeholder.innerText = count;
 }
