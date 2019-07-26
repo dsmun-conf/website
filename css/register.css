@@ -94,3 +94,16 @@ fieldset {
 .radio-buttons label input[type = 'radio'] {
     float: left;
 }
+
+.delete-delegate, .add-delegate {
+    padding: 0.5em 1em;
+    border: none;
+}
+
+.delete-delegate {
+    background: hsla(2, 100%, 74%, 0.5);
+}
+
+.add-delegate {
+    background: hsla(123, 93%, 72%, 0.5);
+}
