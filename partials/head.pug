@@ -1,21 +1,21 @@
 head
     meta(charset="utf-8")
     meta(http-equiv="x-ua-compatible" content="ie=edge")
-    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no")
 
     if page.url == '/'
-        link(rel="preload", href="/img/bell.jpg", as="image", importance="high")
+        link(rel="preload" href="/img/bell.jpg" as="image" importance="high")
 
-    link(rel="preload", href="/fonts/lato-regular.woff2", as="font", type="font/woff2", crossorigin)
-    link(rel="preload", href="/fonts/lato-black.woff2", as="font", type="font/woff2", crossorigin)
-    link(rel="preload", href="/fonts/lora-regular.woff2", as="font", type="font/woff2", crossorigin)
-    link(rel="preload", href="/img/logo-optimized.svg", as="image", importance="high")
+    link(rel="preload" href="/fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin)
+    link(rel="preload" href="/fonts/lato-black.woff2" as="font" type="font/woff2" crossorigin)
+    link(rel="preload" href="/fonts/lora-regular.woff2" as="font" type="font/woff2" crossorigin)
+    link(rel="preload" href="/img/logo-optimized.svg" as="image" importance="high")
 
     block stylesheets
-        link(rel="stylesheet", href="/css/sanitize.css")
-        link(rel="stylesheet", href="/css/style.css")
+        link(rel="stylesheet" href="/css/sanitize.css")
+        link(rel="stylesheet" href="/css/style.css")
 
-    link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
+    link(rel="shortcut icon" href="/favicon.ico" type="image/x-icon")
 
     title
         if name != null
@@ -25,10 +25,10 @@ head
         else
             | The Doon School Model United Nations 2019
 
-    meta(name="description", content="The Doon School Model United Nations 2019 website")
+    meta(name="description" content="The Doon School Model United Nations 2019 website")
     meta(name="theme-color" content="#009ade")
 
-    link(rel="manifest", href="/manifest.json")
+    link(rel="manifest" href="/manifest.json")
 
     block scripts
-        script(src="/js/fathom.js", defer)
+        script(src="/js/fathom.js" defer)

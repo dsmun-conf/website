@@ -1,7 +1,7 @@
 extends /layouts/base.pug
 
 append stylesheets
-    link(rel="stylesheet", href="/css/index.css")
+    link(rel="stylesheet" href="/css/index.css")
 
 block content
     section.hero
@@ -30,13 +30,13 @@ block content
 
         div
             figure.mugshot
-                img(src="/img/executive-board/nandil.jpg", alt="President mugshot")
+                img(src="/img/executive-board/nandil.jpg" alt="President mugshot")
                 figcaption
                     p Nandil&nbsp;Sarma, President
                     p: a.button(href="/addresses/president") President's Address
 
             figure.mugshot
-                img(src="/img/executive-board/vikram.jpg", alt="Secretary General mugshot")
+                img(src="/img/executive-board/vikram.jpg" alt="Secretary General mugshot")
                 figcaption
                     p Vikram&nbsp;Jain, Secretary&nbsp;General
                     p: a.button(href="/addresses/secretary-general") Secretary General's Address
@@ -54,4 +54,4 @@ block content
 
         ul
             while i <= count
-                li: img(src=`/img/gallery/gallery-item-${i++}.jpg`, alt="")
+                li: img(src=`/img/gallery/gallery-item-${i++}.jpg` alt="")

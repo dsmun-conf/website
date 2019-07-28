@@ -2,14 +2,14 @@
 extends /layouts/base.pug
 
 append stylesheets
-    link(rel="stylesheet", href="/css/committees.css")
+    link(rel="stylesheet" href="/css/committees.css")
 
 block content
     article
         h1=name
 
         figure.mugshot
-            img(src=`/img/chairpersons/${page.fileSlug}.jpg`, alt="Chairperson mugshot")
+            img(src=`/img/chairpersons/${page.fileSlug}.jpg` alt="Chairperson mugshot")
             figcaption
 
                 - let email;
@@ -28,8 +28,8 @@ block content
         h2 Delegate Resources
 
         ul.delegate-resources
-            li: a.button(href=`/pdf/background-guides/${page.fileSlug}.pdf`, target="_blank") Background Guide
+            li: a.button(href=`/pdf/background-guides/${page.fileSlug}.pdf` target="_blank") Background Guide
 
-            li: a.button(href=`/pdf/country-matrices/${page.fileSlug}.pdf`, target="_blank") Country Matrix
+            li: a.button(href=`/pdf/country-matrices/${page.fileSlug}.pdf` target="_blank") Country Matrix
 
-            li: a.button(href="/pdf/rules-of-procedure.pdf", target="_blank") Rules of Procedure
+            li: a.button(href="/pdf/rules-of-procedure.pdf" target="_blank") Rules of Procedure
