@@ -1,6 +1,6 @@
 ---
 title: Submission unsuccessful
-layout: article
+layout: ../layouts/article.pug
 eleventyExcludeFromCollections: true
 ---
 

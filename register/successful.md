@@ -1,6 +1,6 @@
 ---
 title: Submission successful
-layout: article
+layout: ../layouts/article.pug
 eleventyExcludeFromCollections: true
 ---
 
