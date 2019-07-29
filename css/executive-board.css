@@ -19,7 +19,7 @@ h1, h2 {
     flex-direction: column;
 }
 
-@media (min-width: 910px) {
+@media all and (min-width: 910px) {
     .dep-sec-gens div,
     .crisis-directors div,
     .vice-presidents div {

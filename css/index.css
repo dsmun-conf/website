@@ -89,7 +89,7 @@ h2 {
     flex-direction: column;
 }
 
-@media (min-width: 500px) {
+@media all and (min-width: 500px) {
     .executive-board div {
         flex-direction: row;
         justify-content: center;

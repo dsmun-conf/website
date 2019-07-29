@@ -11,7 +11,7 @@ h1 {
     height: 250px;
 }
 
-@media (min-width: 700px) {
+@media all and (min-width: 700px) {
     h1 {
         text-align: left;
     }
@@ -37,7 +37,7 @@ h1 {
     margin-bottom: 1em;
 }
 
-@media (min-width: 700px) {
+@media all and (min-width: 700px) {
     .delegate-resources li {
         display: inline-block;
         margin-right: 1em;

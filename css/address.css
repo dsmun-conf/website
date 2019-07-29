@@ -10,7 +10,7 @@ h1 {
     text-align: center;
 }
 
-@media (min-width: 700px) {
+@media all and (min-width: 700px) {
     img {
         float: right;
         margin: 0 0 1em 1em;
