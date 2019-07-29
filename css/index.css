@@ -1,5 +1,4 @@
 .over-the-fold {
-    background-image: url('/img/bell.jpg');
     background-color: hsl(0, 0%, 60%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,6 +7,38 @@
     height: 100vh;
     z-index: -1;
     background-position: 50% 50%;
+}
+
+@media screen and (max-width: 450px) {
+    .over-the-fold {
+        background-image:
+            url('/img/backgrounds/background-small.jpg'),
+            url('/img/backgrounds/background-thumb.jpg');
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .over-the-fold {
+        background-image:
+            url('/img/backgrounds/background-medium.jpg'),
+            url('/img/backgrounds/background-thumb.jpg');
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .over-the-fold {
+        background-image:
+            url('/img/backgrounds/background-large.jpg'),
+            url('/img/backgrounds/background-thumb.jpg');
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .over-the-fold {
+        background-image:
+            url('/img/backgrounds/background-xlarge.jpg'),
+            url('/img/backgrounds/background-thumb.jpg');
+    }
 }
 
 header .logo {
