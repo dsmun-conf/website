@@ -1,5 +1,7 @@
 .over-the-fold {
-    background-color: hsl(0, 0%, 60%);
+    background-color:
+        url('/img/backgrounds/background-thumb.jpg'),
+        hsl(0, 0%, 60%);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -9,7 +11,7 @@
     background-position: 50% 50%;
 }
 
-@media screen and (max-width: 450px) {
+@media all and (max-width: 450px) {
     .over-the-fold {
         background-image:
             url('/img/backgrounds/background-small.jpg'),
@@ -17,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 450px) {
+@media all and (min-width: 450px) {
     .over-the-fold {
         background-image:
             url('/img/backgrounds/background-medium.jpg'),
@@ -25,7 +27,7 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media all and (min-width: 800px) {
     .over-the-fold {
         background-image:
             url('/img/backgrounds/background-large.jpg'),
@@ -33,7 +35,7 @@
     }
 }
 
-@media screen and (min-width: 1350px) {
+@media all and (min-width: 1350px) {
     .over-the-fold {
         background-image:
             url('/img/backgrounds/background-xlarge.jpg'),

@@ -6,10 +6,10 @@ head
     if page.url == '/'
         link(rel="preload" href="/img/backgrounds/background-thumb.jpg" as="image" importance="high")
 
-        link(rel="preload" href="/img/backgrounds/background-small.jpg" as="image" media="screen and (max-width: 450px)" importance="high")
-        link(rel="preload" href="/img/backgrounds/background-medium.jpg" as="image" media="screen and (min-width: 450px)" importance="high")
-        link(rel="preload" href="/img/backgrounds/background-large.jpg" as="image" media="screen and (min-width: 800px)" importance="high")
-        link(rel="preload" href="/img/backgrounds/background-xlarge.jpg" as="image" media="screen and (min-width: 1350px)" importance="high")
+        link(rel="preload" href="/img/backgrounds/background-small.jpg" as="image" media="all and (max-width: 450px)" importance="high")
+        link(rel="preload" href="/img/backgrounds/background-medium.jpg" as="image" media="all and (min-width: 450px)" importance="high")
+        link(rel="preload" href="/img/backgrounds/background-large.jpg" as="image" media="all and (min-width: 800px)" importance="high")
+        link(rel="preload" href="/img/backgrounds/background-xlarge.jpg" as="image" media="all and (min-width: 1350px)" importance="high")
 
     link(rel="preload" href="/fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin)
     link(rel="preload" href="/fonts/lato-black.woff2" as="font" type="font/woff2" crossorigin)
