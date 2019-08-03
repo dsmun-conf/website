@@ -32,4 +32,12 @@ block content
 
             li: a.button(href=`/pdf/country-matrices/${page.fileSlug}.pdf` target="_blank") Country Matrix
 
-            li: a.button(href="/pdf/rules-of-procedure.pdf" target="_blank") Rules of Procedure
+            - let ls;
+            if page.fileSlug == 'ls'
+                - ropPath = '/pdf/ls-rules-of-procedure.pdf';
+            else if page.fileSlug == 'rs'
+                - ropPath = '/pdf/rs-rules-of-procedure.pdf';
+            else
+                - ropPath = '/pdf/rules-of-procedure.pdf';
+
+            li: a.button(href=`${ropPath}` target="_blank") Rules of Procedure
