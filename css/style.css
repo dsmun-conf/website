@@ -161,6 +161,7 @@ header nav {
     font-family: 'Lato', 'Helvetica', 'Ariel', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
+    word-break: keep-all;
 }
 
 header nav ul {
