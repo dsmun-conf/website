@@ -24,3 +24,5 @@ United Nations Economic and Social Council
 ## Agenda
 
 - Eliminating Shadow Economies in Low Income Countries
+
+- Formulating an Immigration Policy for Irregular Migrants
