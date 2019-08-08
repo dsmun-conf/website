@@ -12,3 +12,5 @@ layout: ../layouts/article.pug
 - The background guide for Economic and Social Council (ECOSOC) has been added with a new agenda on the respective committee page.
 
 - Delegates are requested to carry umbrellas due to the weather in Dehradun.
+
+- The agenda for Lok Sabha will remain the same following the suspension of Article 370. However, the discussion will begin with the Armed Forces Special Provisions Act.
