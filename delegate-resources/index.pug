@@ -1,0 +1,18 @@
+---
+title: Addresses
+layout: null
+---
+
+extends /layouts/base.pug
+
+append stylesheets
+    style.
+        .delegate-resources { list-style: none; padding-left: 0; }
+        .delegate-resources li { display: inline; margin-right: 1em; }
+
+block content
+    h1 Delegate Resources
+
+    ul.delegate-resources
+        li: a.button(href="/delegate-resources/schedule") Schedule
+        li: a.button(href="/delegate-resources/award-list") Award list
