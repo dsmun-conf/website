@@ -11,7 +11,7 @@ tr td:first-child {
     white-space: nowrap;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     tr {
         display: list-item;
         list-style: none;
