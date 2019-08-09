@@ -1,7 +1,10 @@
 extends /layouts/base.pug
 
+append stylesheets
+    if stylesheets != null
+        for stylesheet in stylesheets
+            link(rel="stylesheet" href=stylesheet)
+
 block content
     article
-        h1=name
-
         | !{content}

@@ -108,15 +108,6 @@ figcaption {
     border-color: hsl(198, 100%, 25%);
 }
 
-td, th {
-    border: 1px solid hsl(0, 0%, 67%);
-    padding: 0.5em;
-}
-
-th {
-    text-align: left;
-}
-
 /**
  * Typography
  */

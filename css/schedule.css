@@ -1,0 +1,42 @@
+th {
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid hsl(0, 0%, 67%);
+    padding: 0.5em;
+}
+
+tr td:first-child {
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+    tr {
+        display: list-item;
+        list-style: none;
+        margin-bottom: 2em;
+    }
+
+    thead, thead tr, thead th {
+        opacity: 0;
+        height: 1px;
+    }
+
+    tr td, thead th {
+        border: none;
+    }
+
+    tr td {
+        display: block;
+    }
+
+    tr td:before {
+        font-weight: bold;
+        vertical-align: unset;
+    }
+
+    tr td:nth-child(1):before { content: 'Time: '; }
+    tr td:nth-child(2):before { content: 'Event: '; }
+    tr td:nth-child(3):before { content: 'Venue: '; }
+}
