@@ -31,12 +31,12 @@ tr td:first-child {
         display: block;
     }
 
-    tr td:before {
+    tr td::before {
         font-weight: bold;
         vertical-align: unset;
     }
 
-    tr td:nth-child(1):before { content: 'Time: '; }
-    tr td:nth-child(2):before { content: 'Event: '; }
-    tr td:nth-child(3):before { content: 'Venue: '; }
+    tr td:nth-child(1)::before { content: 'Time: '; }
+    tr td:nth-child(2)::before { content: 'Event: '; }
+    tr td:nth-child(3)::before { content: 'Venue: '; }
 }
