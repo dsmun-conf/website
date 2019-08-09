@@ -28,5 +28,5 @@ script.
         const footerParas = document.querySelectorAll('footer p');
         const infoPara = footerParas[footerParas.length - 1];
 
-        infoPara.innerText = infoPara.innerText.replace('❤️', randomEmoji);
+        infoPara.innerHTML = infoPara.innerHTML.replace('❤️', randomEmoji);
     });
