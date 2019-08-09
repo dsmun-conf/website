@@ -17,4 +17,16 @@ footer
                     <president_mun@doonschool.com>
 
     :markdown-it
-        Built with 🦄 by [Shreyas&nbsp;Minocha](//shreyasminocha.me), Arav&nbsp;Dixit and Paavan&nbsp;Agarwal. [Source code](//github.com/shreyasminocha/dsmun19) licensed under the [MIT License](//shreyas.mit-license.org).
+        Built with ❤️ by [Shreyas&nbsp;Minocha](//shreyasminocha.me), Arav&nbsp;Dixit and Paavan&nbsp;Agarwal. [Source code](//github.com/shreyasminocha/dsmun19) licensed under the [MIT License](//shreyas.mit-license.org).
+
+script.
+    window.addEventListener('DOMContentLoaded', () => {
+        const emojis = ['❤️', '🔥', '⚡', '🌈', '😎', '✨', '🦄', '🦋'];
+        const randomNumber = Math.floor(Math.random() * emojis.length);
+        const randomEmoji = emojis[randomNumber];
+
+        const footerParas = document.querySelectorAll('footer p');
+        const infoPara = footerParas[footerParas.length - 1];
+
+        infoPara.innerText = infoPara.innerText.replace('❤️', randomEmoji);
+    });
