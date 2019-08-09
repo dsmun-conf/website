@@ -154,6 +154,7 @@ header nav {
     font-weight: 900;
     text-transform: uppercase;
     word-break: keep-all;
+    white-space: nowrap;
 }
 
 header nav ul {
@@ -161,7 +162,15 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 1em;
+    padding: 1em;
+}
+
+header nav li {
+    display: block;
+    float: left;
+    padding: 0;
+    position: relative;
+    transition-duration: 0.5s;
 }
 
 header nav ul li a {
@@ -172,6 +181,32 @@ header nav ul li a:hover,
 header nav ul li a:focus,
 header nav ul li a:active {
     color: hsl(0, 0%, 30%);
+}
+
+header nav ul li ul {
+    display: none;
+    min-width: 5rem;
+    margin-top: 1rem;
+    position: absolute;
+    z-index: 1;
+}
+
+header nav ul li:hover > ul,
+header nav ul li:focus-within > ul,
+header nav ul li ul:hover,
+header nav ul li ul:focus-within,
+header nav ul li ul li:hover,
+header nav ul li ul li:focus-within {
+    display: block;
+}
+
+header nav ul li ul li {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    margin-left: 1em;
+    background: hsla(0, 0%, 60%);
+    padding: 1em;
 }
 
 @media all and (min-width: 1050px) {
