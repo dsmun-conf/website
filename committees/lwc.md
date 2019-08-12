@@ -1,5 +1,5 @@
 ---
-name: Lincoln's War Cabinet, 1864
+name: Lincoln's War Cabinet, 1861
 chairperson: Aryan Bhattacharjee
 ---
 
@@ -17,7 +17,7 @@ Aryan Bhattacharjee
 
 Chairperson
 
-Lincoln’s War Cabinet, 1864
+Lincoln’s War Cabinet, 1861
 
 ## Agenda
 
