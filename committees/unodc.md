@@ -1,6 +1,6 @@
 ---
 name: United Nations Office on Drugs and Crime
-chairperson: Pranav Goel
+chairperson: Sanidhya Gautam
 ---
 
 Dear Delegates,
@@ -19,7 +19,7 @@ As for me, I currently pursue the ISC curriculum with a gruelling combination of
 
 We hope to see you soon at Chandbagh and best of luck!
 
-Pranav Goel
+Sanidhya Gautam
 
 Chairperson
 
