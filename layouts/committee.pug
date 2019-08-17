@@ -8,20 +8,21 @@ block content
     article
         h1=name
 
-        figure.mugshot
-            img(src=`/img/chairpersons/${page.fileSlug}.jpg` alt="Chairperson mugshot")
-            figcaption
+        unless mugshot == false
+            figure.mugshot
+                img(src=`/img/chairpersons/${page.fileSlug}.jpg` alt="Chairperson mugshot")
+                figcaption
 
-                - let email;
+                    - let email;
 
-                - if (page.fileSlug.startsWith('un')) {
-                    - email = `chair.${page.fileSlug.substring(2)}@doonschool.com`;
-                - } else {
-                    - email = `chair.${page.fileSlug}@doonschool.com`;
-                - }
+                    - if (page.fileSlug.startsWith('un')) {
+                        - email = `chair.${page.fileSlug.substring(2)}@doonschool.com`;
+                    - } else {
+                        - email = `chair.${page.fileSlug}@doonschool.com`;
+                    - }
 
-                p #{chairperson}
-                    p: a(href=`mailto:${email}`)=email
+                    p #{chairperson}
+                        p: a(href=`mailto:${email}`)=email
 
         | !{content}
 

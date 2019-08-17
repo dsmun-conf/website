@@ -1,6 +1,7 @@
 ---
 name: United Nations Office on Drugs and Crime
 chairperson: Sanidhya Gautam
+mugshot: false
 ---
 
 Dear Delegates,
