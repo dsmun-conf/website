@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/shreyasminocha/dsmun19#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.2",
+    "@11ty/eleventy": "^v0.9.0-beta.1",
     "eclint": "^2.8.1",
     "imagemin-cli": "^4.0.1",
     "jstransformer-markdown-it": "^2.1.0",
