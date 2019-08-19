@@ -1,0 +1,56 @@
+{
+    "disallowAttributeConcatenation": true,
+    "disallowAttributeInterpolation": true,
+    "disallowClassAttributeWithStaticValue": true,
+    "disallowClassLiteralsBeforeAttributes": null,
+    "disallowClassLiteralsBeforeIdLiterals": true,
+    "disallowClassLiterals": null,
+    "disallowDuplicateAttributes": true,
+
+    /* Disabled because pug-lint doesn't understand markdown's */
+    /* …angle-bracket-sourroundned links */
+    "disallowHtmlText": null,
+    "disallowIdAttributeWithStaticValue": true,
+    "disallowIdLiteralsBeforeAttributes": null,
+    "disallowIdLiterals": null,
+    "disallowLegacyMixinCall": true,
+    "disallowMultipleLineBreaks": true,
+    "disallowSpaceAfterCodeOperator": null,
+    "disallowSpacesInsideAttributeBrackets": true,
+    "disallowSpecificAttributes": null,
+    "disallowSpecificTags": ["br", "b", "i"],
+    "disallowStringConcatenation": true,
+    "disallowStringInterpolation": null,
+    "disallowTagInterpolation": true,
+    "disallowTemplateString": "all",
+    "disallowTrailingSpaces": true,
+    "maximumLineLength": null,
+    "maximumNumberOfLines": null,
+    "requireClassLiteralsBeforeAttributes": true,
+    "requireClassLiteralsBeforeIdLiterals": null,
+    "requireIdLiteralsBeforeAttributes": true,
+    "requireLineFeedAtFileEnd": true,
+    "requireLowerCaseAttributes": true,
+
+    /* Disabled because pug-lint doesn't understand yaml frontmatter */
+    /* See also: pugjs/pug-lint#112 */
+    "requireLowerCaseTags": null,
+
+    /* Disabled because pug-lint doesn't understand yaml frontmatter */
+    /* See also: pugjs/pug-lint#112 */
+    "requireSpaceAfterCodeOperator": null,
+
+    "requireSpacesInsideAttributeBrackets": null,
+    "requireSpecificAttributes": [{
+        "img": ["src", "alt"]
+    }],
+    "requireStrictEqualityOperators": true,
+    "validateAttributeQuoteMarks": "\"",
+    "validateAttributeSeparator": { "separator": " ", "multiLineSeparator": "\n    " },
+    "validateDivTags": true,
+    "validateExtensions": true,
+    "validateIndentation": 4,
+    "validateLineBreaks": "LF",
+    "validateSelfClosingTags": true,
+    "validateTemplateString": true
+}
