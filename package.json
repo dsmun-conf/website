@@ -32,8 +32,8 @@
     "eclint": "^2.8.1",
     "imagemin-cli": "^4.0.1",
     "jstransformer-markdown-it": "^2.1.0",
-    "pug-lint": "^2.5.0",
+    "pug-lint": "^2.6.0",
     "stylelint": "^9.10.1",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-standard": "^18.3.0"
   }
 }
