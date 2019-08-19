@@ -1,7 +1,7 @@
 extends /layouts/base.pug
 
 append stylesheets
-    if stylesheets != null
+    if stylesheets !== null
         for stylesheet in stylesheets
             link(rel="stylesheet" href=stylesheet)
 

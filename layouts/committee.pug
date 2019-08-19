@@ -8,7 +8,7 @@ block content
     article
         h1=name
 
-        unless mugshot == false
+        unless mugshot === false
             figure.mugshot
                 img(src=`/img/chairpersons/${page.fileSlug}.jpg` alt="Chairperson mugshot")
                 figcaption
@@ -34,11 +34,11 @@ block content
             li: a.button(href=`/pdf/country-matrices/${page.fileSlug}.pdf` target="_blank") Country Matrix
 
             - let ls;
-            if page.fileSlug == 'ls'
+            if page.fileSlug === 'ls'
                 - ropPath = '/pdf/ls-rules-of-procedure.pdf';
-            else if page.fileSlug == 'rs'
+            else if page.fileSlug === 'rs'
                 - ropPath = '/pdf/rs-rules-of-procedure.pdf';
             else
                 - ropPath = '/pdf/rules-of-procedure.pdf';
 
-            li: a.button(href=`${ropPath}` target="_blank") Rules of Procedure
+            li: a.button(href=ropPath target="_blank") Rules of Procedure

@@ -4,7 +4,7 @@
   "description": "The Doon School Model United Nations 2019 website",
   "main": "index.pug",
   "scripts": {
-    "test": "eclint check $(git ls-files) && pug-lint --reporter inline *.pug partials/*.pug layouts/*.pug && stylelint **/*.css",
+    "test": "eclint check $(git ls-files) && pug-lint --reporter inline *.pug **/*.pug && stylelint **/*.css",
     "imagemin": "for file in img/**/*.png; do imagemin $file --out-dir $(dirname -- $file) > /dev/null; done",
     "build": "rm -rf dist && eleventy",
     "now-build": "rm -rf dist && eleventy",
