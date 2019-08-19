@@ -1,2 +1,3 @@
 !.eleventy.js
-js/fathom.js
+static/js/fathom.js
+dist
