@@ -15,5 +15,5 @@ block content
     section.committee-grid
         ul
             each committee in collections.committees
-                li(style=`background-image: url('/img/committee-thumbs/${committee.fileSlug}.jpg');`)
+                li(style=`background: 'hsla(0, 0%, 35%, 1)');`)
                     a(href=`/committees/${committee.fileSlug}`)=committee.data.name
