@@ -1,3 +1,3 @@
-# DSMUN '19
+# DSMUN
 
-The Doon School Model United Nations 2019 website.
+The Doon School Model United Nations website.

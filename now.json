@@ -1,7 +1,4 @@
 {
-    "version": 2,
-    "name": "dsmun19",
-    "alias": "dsmun.in",
     "builds": [
         { "src": "package.json", "use": "@now/static-build" }
     ]

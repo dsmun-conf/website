@@ -1,7 +1,7 @@
 {
-  "name": "dsmun19",
+  "name": "dsmun",
   "version": "0.0.0",
-  "description": "The Doon School Model United Nations 2019 website",
+  "description": "The Doon School Model United Nations website",
   "main": "index.pug",
   "scripts": {
     "test": "htmlhint; stylelint **/*.css; eslint .",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shreyasminocha/dsmun19.git"
+    "url": "git+https://github.com/dsmun-conf/website.git"
   },
   "keywords": [
     "dsmun",
@@ -23,9 +23,9 @@
   "author": "Shreyas Minocha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shreyasminocha/dsmun19/issues"
+    "url": "https://github.com/dsmun-conf/website/issues"
   },
-  "homepage": "https://github.com/shreyasminocha/dsmun19#readme",
+  "homepage": "https://github.com/dsmun-conf/website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
     "eslint": "^5.15.1",

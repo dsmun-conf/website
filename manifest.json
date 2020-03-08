@@ -1,11 +1,11 @@
 {
-    "name": "The Doon School Model United Nations 2019",
-    "short_name": "DSMUN '19",
+    "name": "The Doon School Model United Nations",
+    "short_name": "DSMUN",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#009ade",
-    "description": "The Doon School Model United Nations 2019 website",
+    "description": "The Doon School Model United Nations website",
     "icons": [
         {
             "src": "img/icon/icon-512.png",
